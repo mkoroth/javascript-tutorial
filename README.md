@@ -1,4 +1,4 @@
-# Github steps to push code to github (this is a test)
+# Github steps to push code to github
 
 1. Initialize your code (repository)
 Run: `git init` in the root directory of your code
