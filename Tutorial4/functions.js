@@ -27,10 +27,14 @@ function print(input) {
 
 // 10/20 = 50%
 // 15/20 = 75%
-// (10 / 20) * 100
+// (10 / 20) * 100     0.5 * 100
 function findPercentage(num1, num2) {
     const percent = (num1 / num2) * 100
     return percent
 }
 const receivedPercent = findPercentage(13,95)
 print(`${receivedPercent}%`)
+
+function add(num1, num2) {
+    return num1 + num2
+}

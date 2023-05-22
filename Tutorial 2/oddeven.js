@@ -9,3 +9,4 @@ const myNumber = 7
 
 const remainder = 7 % 2
 console.log("remainder:", remainder)
+

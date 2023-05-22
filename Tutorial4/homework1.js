@@ -44,7 +44,7 @@ function print(input) {
 */
 function characterNumber(startCharacter, number) {
        
-    let newString = ''
+    let newString = 'aaaaaaaaaa'
     for (let i = 0; i < number; i++) {
         //   newString = newString + startCharacter
         newString += startCharacter
@@ -54,7 +54,7 @@ function characterNumber(startCharacter, number) {
 
 }
 
-// console.log(characterNumber('a', 10))
+// console.log(characterNumber('a', 20))
 
 
 // print(isNumber)
@@ -65,7 +65,7 @@ function characterNumber(startCharacter, number) {
 
 
 // // TODO: calculate the average of grades array. use a for loop
-const grades = []
+const grades = [10, 20 , 30, 40]
 
 let sum = 0
 let avg = 0
@@ -94,5 +94,5 @@ function stringNumber(characterString, number) {
     return newString
 }
 
-/* const result = stringNumber('A', 10)
+/* const result = stringNumber('A', 10) // 'aaaaaaaaaa'
 console.log(result) */

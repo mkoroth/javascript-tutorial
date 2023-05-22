@@ -32,6 +32,7 @@ while (i < starterString.length) {
 
     if (numbers.includes(character)) {
         numberOfNumbers++
+        // numberOfNumbers += 1
     }
 
     i++
