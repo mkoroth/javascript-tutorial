@@ -2,7 +2,7 @@
 
 // parallel arrays are two or more arrays to keep track of data for a particular item
 
-// for example. lets say we wanted to store some data for a person
+// for example. rlets say we wanted to stoe some data for a person
 // ip address, email, phone number, username, password
 
 // this is hard to store all at once without creating alot of variables

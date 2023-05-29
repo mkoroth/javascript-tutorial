@@ -11,7 +11,7 @@ const object = {
 }
 
 // access objects
-const name = object.name
+const name = object.name // 'api'
 console.log(name)
 
 const email = object.email
@@ -24,15 +24,19 @@ console.log(object)
 
 const users = []
 
-const newUser = {
-    name: "api",
-    email: "api@email.com",
-    phoneNumber: "4162000000",
-    address: "123 main street",
-    postalcode: "m9v4g9",
-    altNumber:"3525225225"
+function createNewUser(name, email, phoneNumber, address, postalcode, altNumber) {
+    const newUser = {
+        name: name,
+        email: email,
+        phoneNumber: phoneNumber,
+        address: address,
+        postalcode: postalcode,
+        altNumber: altNumber,
+    }
+    users.push(newUser)
 }
-users.push(newUser)
+
+createNewUser('api', 'api@email.com', '134134124', '123 main street', 'm1d2d2', '123124')
 
 const newUser1 = {
     name: "dennis",
@@ -45,7 +49,8 @@ const newUser1 = {
         address: "123 addy street",
         principal: "mr john",
         pricipalCar: {
-            name: "bmw"
+            name: "bmw",
+            horsePower: 54
         }
     }
 }
@@ -77,7 +82,21 @@ console.log(findTitleById(21))
 
 // TODO: find the number of brands that are Apple
 
-
+function findTitleById(productId){
+    const products = data.products
+    let foundProduct
+         
+    for (let i = 0; i < products.length; i++) {
+       console.log(products[i])
+       const product = products[i]
+       if (product.id === productId) {
+           foundProduct = product
+       }
+   }
+   
+   return foundProduct.title
+   }
+   
 
 // TODO: find the number of brands that are giveString which is a parameter e.g. findNumberOfBrands('Samsung')
 // TODO: find the total price of all the products

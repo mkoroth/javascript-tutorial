@@ -55,7 +55,7 @@ function sumAllNumbers(someString) {
     for (let i = 0; i < someString.length; i++) {
         const character = someString[i] // T
 
-        if (numbers.includes(character)) {
+        if (numbers.includes(character)) { // "8", 8
             const number = parseInt(character) // "8" -> 8
             sum = sum + number
         }

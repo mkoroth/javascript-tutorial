@@ -5,9 +5,9 @@ const object = {
     createdAt: '2022-11-11:00:00:00'
 }
 
-console.log(object.name)
+console.log(object.name) // dot notation
 
-console.log(object['name'])
+console.log(object['name']) // bracket notation
 
 // TODO: you work for facebook and they don't want to store passwords anymore to keep accounts safe
 // your job is to remove all the passwords from the list of users and then you want to replace the password with a new list of passwords object

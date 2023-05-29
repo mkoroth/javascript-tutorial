@@ -44,7 +44,7 @@ function print(input) {
 */
 function characterNumber(startCharacter, number) {
        
-    let newString = 'aaaaaaaaaa'
+    let newString = 'aaaa'
     for (let i = 0; i < number; i++) {
         //   newString = newString + startCharacter
         newString += startCharacter
